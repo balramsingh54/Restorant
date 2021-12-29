@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {  FormGroup , FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'app-add-resto',
@@ -11,5 +13,15 @@ export class AddRestoComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+    RestorantForm = new FormGroup({
+    name : new FormControl(''),
+    address : new FormControl('')
+  })
+
+    restorantdata(){
+      console.log(this.RestorantForm.value)
+    }
+
 
 }

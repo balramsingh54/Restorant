@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RastoService} from '../rasto.service';
 
 @Component({
   selector: 'app-list-resto',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListRestoComponent implements OnInit {
 
-  constructor() { }
+  constructor( private rasto:RastoService ) { }
 
+  data:any= {};
   ngOnInit(): void {
+    this.rasto.getlist().subscribe((result)=> {
+      console.log(result)
+      console.log('data list')
+      this.data= result
+    })
   }
-
 }

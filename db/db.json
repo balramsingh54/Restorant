@@ -1,11 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "json-server 2", "author": "typicode 2" }
-
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "restorant": [
+    {
+      "id": 1,
+      "name": "kfc",
+      "address": "delhi"
+    },
+    {
+      "id": 2,
+      "name": "mac donald",
+      "address": "noida"
+    },
+    {
+      "id": 3,
+      "name": "haldiram",
+      "address": "ghaziabad"
+    },
+    {
+      "name": "chips",
+      "address": "gorakhpur",
+      "id": 4
+    },
+    {
+      "name": "dominos",
+      "address": "haridwar",
+      "id": 5
+    }
+  ]
 }
