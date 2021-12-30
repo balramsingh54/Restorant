@@ -12,5 +12,11 @@ export class RastoService {
   getlist(){
     return this.http.get(this.url)
   }
+
+  postlist(data:any){
+    // console.log(data)
+    return this.http.post(this.url,data)
+  }
+
 }
 

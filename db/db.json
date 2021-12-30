@@ -24,6 +24,31 @@
       "name": "dominos",
       "address": "haridwar",
       "id": 5
+    },
+    {
+      "name": "swe",
+      "address": "",
+      "id": 6
+    },
+    {
+      "name": "hindu",
+      "address": "",
+      "id": 7
+    },
+    {
+      "name": "bharat",
+      "address": "",
+      "id": 8
+    },
+    {
+      "name": "nnnn",
+      "address": "",
+      "id": 9
+    },
+    {
+      "name": "jai shree ram",
+      "address": "kedar",
+      "id": 10
     }
   ]
 }

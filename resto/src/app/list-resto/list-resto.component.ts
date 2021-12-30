@@ -13,8 +13,6 @@ export class ListRestoComponent implements OnInit {
   data:any= {};
   ngOnInit(): void {
     this.rasto.getlist().subscribe((result)=> {
-      console.log(result)
-      console.log('data list')
       this.data= result
     })
   }
