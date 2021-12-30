@@ -21,9 +21,7 @@ export class AddRestoComponent implements OnInit {
 
   restorantdata(){
     // console.log(this.RestorantForm.value)
-    this.resto.postlist(this.RestorantForm.value).subscribe((result:any)=> {
-    console.log(result)
-    })
+    this.resto.postlist(this.RestorantForm.value).subscribe()
   }
-  
+
 }
