@@ -10,6 +10,9 @@ import { RastoService} from '../rasto.service';
 })
 export class AddRestoComponent implements OnInit {
 
+  alert:boolean=false;
+
+
   RestorantForm = new FormGroup({
   name : new FormControl(''),
   address : new FormControl('')
@@ -17,11 +20,18 @@ export class AddRestoComponent implements OnInit {
 
   constructor( private resto:RastoService) { }
 
+
   ngOnInit(): void {}
 
   restorantdata(){
     // console.log(this.RestorantForm.value)
     this.resto.postlist(this.RestorantForm.value).subscribe()
+    this.alert= true;
+    this.RestorantForm.reset();
+  }
+
+  alerclose(){
+    this.alert = false;
   }
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {  FormGroup , FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'app-update-resto',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpdateRestoComponent implements OnInit {
 
+  editForm = new FormGroup({
+  name : new FormControl(''),
+  address : new FormControl('')
+  })
+
   constructor() { }
+
+
 
   ngOnInit(): void {
   }

@@ -1,69 +1,14 @@
 {
   "restorant": [
     {
-      "id": 1,
-      "name": "kfc",
-      "address": "delhi"
+      "name": "balram",
+      "address": "lachiya",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "mac donald",
-      "address": "noida"
-    },
-    {
-      "id": 3,
-      "name": "haldiram",
-      "address": "ghaziabad"
-    },
-    {
-      "name": "chips",
-      "address": "gorakhpur",
-      "id": 4
-    },
-    {
-      "name": "dominos",
-      "address": "haridwar",
-      "id": 5
-    },
-    {
-      "name": "swe",
-      "address": "",
-      "id": 6
-    },
-    {
-      "name": "hindu",
-      "address": "",
-      "id": 7
-    },
-    {
-      "name": "bharat",
-      "address": "",
-      "id": 8
-    },
-    {
-      "name": "nnnn",
-      "address": "",
-      "id": 9
-    },
-    {
-      "name": "jai shree ram",
-      "address": "kedar",
-      "id": 10
-    },
-    {
-      "name": "ji",
-      "address": "hi",
-      "id": 11
-    },
-    {
-      "name": "jier",
-      "address": "hitr",
-      "id": 12
-    },
-    {
-      "name": "ram",
-      "address": "ji",
-      "id": 13
+      "name": "abc",
+      "address": "def",
+      "id": 2
     }
   ]
 }
