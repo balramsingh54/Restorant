@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Snapshot – This is the current snapshot of this route.
+URL – It is an observable of the URL segments and it matched by this route
+Params – Observable of the matrix parameters scoped to this route
+QueryParams – Observable of the query parameters shared by all the routes
+Fragment – Observable of the URL fragment shared by all the routes
+Data – Observable of the static and resolved data of this route.
+Root – This is the root of the router state
+Parent – This property is the parent of this route in the router state tree
+FirstChild – First child of this route in the router state tree
+Children – Children of this route in the router state tree
+pathFromRoot – Path from the root of the router state tree to this route
+paramMap – It is read-only
+queryParamMap – It is read-only
+Outlet – It’s a constant and outlet name of the route
+Component – It’s a constant and a component of the route
+RouteConfig – This configuration used to match this route

@@ -26,6 +26,5 @@ export class ListRestoComponent implements OnInit {
         console.log(result)
         this.data.splice(item-1,1)
       })
-  }
-  
+  }  
 }

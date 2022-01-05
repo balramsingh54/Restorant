@@ -1,14 +1,49 @@
 {
   "restorant": [
     {
-      "name": "balram",
-      "address": "lachiya",
-      "id": 1
+      "name": "jai shree ram",
+      "address": "ayodhya",
+      "id": 3
     },
     {
-      "name": "abc",
-      "address": "def",
-      "id": 2
+      "name": "jai shree krishnaa",
+      "address": "mathura",
+      "id": 4
+    },
+    {
+      "name": "ram",
+      "address": "shyam",
+      "id": 5
+    },
+    {
+      "name": "manoj",
+      "address": "po",
+      "id": 6
+    },
+    {
+      "name": "sudama",
+      "address": "ghhghg",
+      "id": 7
+    },
+    {
+      "name": "akh",
+      "address": "kuwa",
+      "id": 8
+    },
+    {
+      "name": "jai mata di",
+      "address": "jambu wale katara",
+      "id": 9
+    },
+    {
+      "name": "bali",
+      "address": "rishimukh parvat wale",
+      "id": 10
+    },
+    {
+      "name": "ravan",
+      "address": "lanka wale",
+      "id": 11
     }
   ]
 }
