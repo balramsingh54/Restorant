@@ -22,7 +22,7 @@ const routes: Routes = [
   },
     {
     component: RegisterComponent,
-    path : 'register'
+    path : ''
   },
       {
     component: UpdateRestoComponent,

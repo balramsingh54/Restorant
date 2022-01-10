@@ -1,39 +1,106 @@
 {
   "restorant": [
     {
-      "name": "jai shree ram",
-      "address": "ayodhya",
-      "id": 3
-    },
-    {
-      "name": "jai shree krishnaa",
-      "address": "mathura",
-      "id": 4
-    },
-    {
       "name": "ram",
       "address": "shyam",
       "id": 5
     },
     {
-      "name": "manoj",
-      "address": "po",
-      "id": 6
-    },
-    {
-      "name": "sudama",
-      "address": "ghhghg",
-      "id": 7
-    },
-    {
-      "name": "bali",
-      "address": "rishimukh parvat wale",
-      "id": 10
-    },
-    {
       "name": "ravan",
       "address": "lanka wale",
       "id": 11
+    },
+    {
+      "name": "namak",
+      "address": "shop",
+      "id": 14
+    },
+    {
+      "name": "ramdana",
+      "address": "dukan",
+      "id": 15
+    },
+    {
+      "name": "sewayi",
+      "address": "milk",
+      "id": 16
+    },
+    {
+      "name": "today",
+      "address": "yesterday",
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "name": "balramsingh54",
+      "email": "singhbalram054@gmail.com",
+      "password": "123456789",
+      "Consfirmpassword": "123456789",
+      "id": 1
+    },
+    {
+      "name": "balraim054",
+      "email": "singhbalram054@gmail.com",
+      "password": "Password@0",
+      "Consfirmpassword": "Password@0",
+      "id": 2
+    },
+    {
+      "name": "sweety",
+      "email": "afds",
+      "password": "asdfds",
+      "Consfirmpassword": "sdfd",
+      "id": 3
+    },
+    {
+      "name": "sweety",
+      "email": "afds",
+      "password": "asdfds",
+      "Consfirmpassword": "sdfd",
+      "id": 4
+    },
+    {
+      "name": "wert",
+      "email": "we",
+      "password": "ty",
+      "Consfirmpassword": "re",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "Consfirmpassword": "",
+      "id": 6
+    },
+    {
+      "name": "bbb",
+      "email": "singhbalram054@gmail.com",
+      "password": "123",
+      "Consfirmpassword": "123",
+      "id": 7
+    },
+    {
+      "name": "er",
+      "email": "ds",
+      "password": "3223233233",
+      "Consfirmpassword": "323233",
+      "id": 8
+    },
+    {
+      "name": "swty",
+      "email": "dffdfs",
+      "password": "123456",
+      "Consfirmpassword": "12345",
+      "id": 9
+    },
+    {
+      "name": "krsingh",
+      "email": "balramsingh54",
+      "password": "krsingh",
+      "Consfirmpassword": "krsingh",
+      "id": 10
     }
   ]
 }

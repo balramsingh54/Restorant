@@ -6,6 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RastoService {
   url= "http://localhost:3000/restorant"
+  rooturl= "http://localhost:3000/users"
+
 
   constructor( private http: HttpClient) {  }
   
@@ -28,6 +30,10 @@ export class RastoService {
 
   updateresto(id:any, data:any){
   return this.http.put(`${this.url}/${id}`,data)
+  }
+
+  userdatad(data:any){
+    return this.http.post(this.rooturl,data)
   }
 
 }
