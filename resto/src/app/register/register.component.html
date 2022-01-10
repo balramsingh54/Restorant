@@ -10,7 +10,7 @@
 		<h2>Restaurant Signup</h2>
 		<p>feel free to sign up</p>
 		<hr>
-        <div class="form-group">
+    <div class="form-group">
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text">
@@ -18,8 +18,9 @@
 					</span>                    
 				</div>
 				<input type="text" class="form-control" name="username" placeholder="Username" required="required"formControlName="name">
+				<span style="color:red;" *ngIf="name && name.invalid && name.touched">This field is required</span>
 			</div>
-        </div>
+    </div>
         <div class="form-group">
 			<div class="input-group">
 				<div class="input-group-prepend">
@@ -28,6 +29,8 @@
 					</span>                    
 				</div>
 				<input type="email" class="form-control" name="email" placeholder="Email Address" required="required" formControlName="email">
+				<span style="color:red;" *ngIf="email && email.invalid && email.touched">This field is required</span>
+
 			</div>
         </div>
 		<div class="form-group">
@@ -38,6 +41,8 @@
 					</span>                    
 				</div>
 				<input type="text" class="form-control" name="password" placeholder="Password" required="required" formControlName="password">
+				<span style="color:red;" *ngIf="password && password.invalid && password.touched">This field is required</span>
+
 			</div>
         </div>
 		<div class="form-group">
@@ -49,10 +54,13 @@
 					</span>                    
 				</div>
 				<input type="text" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required" formControlName="Consfirmpassword">
+				<span style="color:red;" *ngIf="Consfirmpassword && Consfirmpassword.invalid && Consfirmpassword.touched">This field is required</span>
+
+
 			</div>
         </div>
 		<div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+            <button [disabled]="loginForm.invalid" type="submit" class="btn btn-primary btn-lg">Sign Up</button>
         </div>
        	<div class="text-center"> <span class="colorr">Already have an account? &nbsp;</span><a routerLink="/login">Login here</a></div>
 

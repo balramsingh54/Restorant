@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
  
@@ -14,8 +14,8 @@ export class LoginComponent implements OnInit {
   // password:string;
 
   loginform= new FormGroup({
-    username:new FormControl(''),
-    password: new FormControl('')
+    username:new FormControl('',[Validators.required]),
+    password: new FormControl('',[Validators.required])
   })
 
   constructor( 
@@ -41,5 +41,14 @@ export class LoginComponent implements OnInit {
       }
     })
   }
+
+  get user_name(){
+    return this.loginform.get('username')
+  }
+
+    get user_password(){
+    return this.loginform.get('password')
+  }
+
 
 }
